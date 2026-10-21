@@ -13,6 +13,7 @@ BLOB_TO_FILE = {
     "blob/91d7ea1c-0f8b": "figures/figE_key_residues_6X18.png",
     "blob/ebb8bdd7-a8db": "figures/figF_ECD_groove_GLP1_Ex4.png",
     "blob/5f2e02fb-082d": "figures/figG_Baker_hotspot_L123.png",
+    "blob/28938264-1d96": "figures/figH_Baker_hotspots_GLP1R_GCGR_GIPR.png",
 }
 
 def segments(e, bold=False, italic=False, href=None):
