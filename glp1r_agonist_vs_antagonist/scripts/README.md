@@ -22,3 +22,5 @@ work/glp1r_pdb_details.json  # метаданные RCSB GraphQL (pdb_details.py
 `an11_baker_numbering.py` — проверка нумерации хотспотов Baker et al.: 95-й разрешённый остаток цепи R в 5VAI/6X18/7DUQ — Leu123, 32-й остаток цепи R в 7FIN — Met67 (в 6VCB ECD с пропусками, правило не работает).
 
 `an12_hotspot_alignment.py` — независимая проверка по положению: хотспоты GCGR и GIPR переносятся выравниванием ECD на W33, W39, W91 и E68 GLP1R (3–5 Å от GLP-1 в 6X18); Leu123 — 4.0 Å, Leu118 — 5.3 Å.
+
+`an13_hotspot_exposure.py` — экспозиция растворителя для восстановленных хотспотов Baker (Leu123 открыт на 22% / 15% / 41% в 6X18 / 7DUQ / 5VAI, Met67 у GIPR — на 63% в 7FIN) и отличия модели ECD в 5VAI от UniProt (13 остатков).
